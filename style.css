@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+
+.container {
+    background-image: url("imag/tokyo-street.jpg");
+    background-size: cover;
+    padding: 4rem 0;
+    display: flex;
+    flex-direction: column;
+
+}
+
+img {
+    width: 20rem;
+    height: 15rem;
+    object-fit: cover;
+}
+
+.tokyo-map {
+    width: 20rem;
+    height: 30rem;
+    object-fit: cover;
+}
+
+h1,.sub-head {
+    color: #081B2C;
+    margin: 0 auto 5px;
+    padding: 1px 5px;
+    background-color: #DE0B3D;
+    max-width: 90%;
+}
+
+.main {
+    padding: 1rem 0;
+    background-color: #081B2C;
+    color: #EEEEEE;
+}
+
+p { 
+    margin: 5px 40px 40px 40px;
+}
+
+.no-margin {
+    margin: 20px 40px 25px 40px;
+}
+
+.footer {
+    background-color: #EFCFBF;
+    padding: 1rem 0;
+}
+
+@media (min-width: 850px) {
+    .container {
+        padding: 14rem;
+    }
+}
+
+@media (min-width: 1250px) {
+    .container {
+        font-size: 2em;
+        padding: 39rem;
+    }
+
+    .main {
+        padding: 9rem 0;
+    }
+
+    .flex-box {
+        display: flex;
+        justify-content: center;
+        font-size: 1.2em;
+    }
+
+    h2 { 
+        font-size: 2.3em;
+    }
+
+    img {
+        width: 25rem;
+        height: 20rem;
+        object-fit: cover;
+    }
+
+    .tokyo-map {
+        width: 35rem;
+        height: 50rem;
+        object-fit: cover;
+    }
+}
